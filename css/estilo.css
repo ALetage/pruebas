@@ -1,0 +1,60 @@
+body {
+    background-image: url(zoofondo.jpg);
+}
+
+/* Cambiar el fondo del body a un azul claro */
+body {
+    background-color: #E6F7FF;
+}
+
+/* Cambiar el color de fondo de la barra de navegación a celeste */
+.navbar {
+    background-color: #ADD8E6;
+}
+
+
+/* Cambiar el color del texto a un azul más oscuro */
+.navbar, .nav-link, .carousel-control-prev-icon, .carousel-control-next-icon {
+    color: #007BFF;
+}
+
+/* Cambiar el color de fondo de los botones y los enlaces */
+.btn, .btn-outline-success, .navbar-toggler-icon {
+    background-color: #007BFF;
+    color: #FFF; /* Cambiar el color del texto en los botones */
+}
+
+/* Cambiar el color de fondo del botón de búsqueda */
+.form-control, .btn-outline-success {
+    background-color: #E6F7FF;
+}
+/* Establecer la altura del carousel a un valor específico y el ancho al 100% */
+.carousel {
+    height: 300px; /* Cambia esta altura según tus necesidades */
+    width: 100%;
+}
+
+/* Asegurarse de que las imágenes dentro del carousel tengan un tamaño máximo y se ajusten proporcionalmente */
+.carousel-item img {
+    max-width: 40%; /* La imagen tendrá un ancho máximo del 100% del carousel */
+    max-height: 100%; /* La imagen tendrá una altura máxima del 100% del carousel */
+    width: 500px; /* La imagen se ajustará proporcionalmente al ancho disponible */
+    height: 500px; /* La imagen se ajustará proporcionalmente a la altura disponible */
+    margin: 80px auto; /* Centrar la imagen horizontalmente en el carousel */
+}
+
+.cardPadre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 400px;
+    gap: 30px;
+    border-radius: 16px;
+}
+
+/* Cambiar el color de fondo de la barra de navegación a celeste */
+.navbar {
+    background-color: #ADD8E6;
+}
+
